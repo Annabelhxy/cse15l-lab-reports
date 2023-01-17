@@ -19,7 +19,7 @@ If you are on Windows, first install `git` for Windows. Once installed, use foll
 To connect remotely, you should login to this website [Link](https://sdacs.ucsd.edu/~icc/index.php) and reset your password for your account. Then, open a terminal in VScode and type `ssh cs15lwi23zz@ieng6.ucsd.edu` in the terminal (replace `zz` with the letters in your course-specific account). Then, give your password which you are not able to see it. Once logined, you should be able to see something that looks like the screenshot below.
 
 ![Image](remote.jpg)
-![Image](remote 2.jpg)
+![Image](remote2.jpg)
 
 ## Trying Some Commands
 You can run some commands both on your computer and on the remote computer after login. 
