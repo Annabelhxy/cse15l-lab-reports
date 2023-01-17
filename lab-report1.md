@@ -7,6 +7,7 @@ When it is installed, you should be able to open a window that looks like this.
 
 ![Image](VS.jpg)
 
+
 ## Remotely Connecting
 If you are on Windows, first install `git` for Windows. Once installed, use following steps to set the default terminal: 
 
@@ -20,6 +21,7 @@ To connect remotely, you should login to this website [Link](https://sdacs.ucsd.
 
 ![Image](remote.jpg)
 ![Image](remote2.jpg)
+
 
 ## Trying Some Commands
 You can run some commands both on your computer and on the remote computer after login. 
