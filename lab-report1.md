@@ -7,6 +7,6 @@ When it is installed, you should be able to open a window that looks like this.
 ![Image](VS.jpg)
 
 ## Remotely Connecting
-
+![Image](remote.jpg)
 
 ## Trying Some Commands
