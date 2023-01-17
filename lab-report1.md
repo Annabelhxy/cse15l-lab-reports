@@ -10,7 +10,7 @@ When it is installed, you should be able to open a window that looks like this.
 ## Remotely Connecting
 If you are on Windows, first install `git` for Windows. Once installed, use following steps to set the default terminal: 
 
-1. Open Visual Studio Code and use `Ctrl` + ` (or use the Terminal -> New Terminal menu option) to open the terminal. 
+1. Open Visual Studio Code and use `Ctrl` + ``` (or use the Terminal -> New Terminal menu option) to open the terminal. 
 2. Open the command palette using `Ctrl` + `Shift` + `P`.
 3. Select Default Profile and select Git Bash from the options.
 4. Click on the + icon in the terminal window. 
@@ -23,7 +23,7 @@ To connect remotely, you should login to this website https://sdacs.ucsd.edu/~ic
 
 ## Trying Some Commands
 You can run some commands both on your computer and on the remote computer after login. 
-
+![Image](commands.jpg)
 
 * `pwd` prints the current working directory
 * `cd` switches the current working directory to the given path
