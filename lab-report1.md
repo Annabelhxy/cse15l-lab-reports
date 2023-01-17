@@ -16,14 +16,21 @@ If you are on Windows, first install `git` for Windows. Once installed, use foll
 4. Click on the + icon in the terminal window. 
 5. The new terminal now will be a Git Bash terminal. 
 
-Then, open a terminal in VScode and type `ssh cs15lwi23zz@ieng6.ucsd.edu` in the terminal (replace `zz` with the letters in your course-specific account). Then, give your password which you are not able to see it. Once logined, you should be able to see something that looks like the screenshot below.
+To connect remotely, you should login to this website https://sdacs.ucsd.edu/~icc/index.php and reset your password for your account. Then, open a terminal in VScode and type `ssh cs15lwi23zz@ieng6.ucsd.edu` in the terminal (replace `zz` with the letters in your course-specific account). Then, give your password which you are not able to see it. Once logined, you should be able to see something that looks like the screenshot below.
 
 ![Image](remote.jpg)
+![Image](remote 2.jpg)
+
+## Trying Some Commands
+You can run some commands both on your computer and on the remote computer after login. 
+
+
+* `pwd` prints the current working directory
+* `cd` switches the current working directory to the given path
+* `ls` lists the files and forlders of the given path
+* `cat` prints the contents of one or more files given by the paths
+* `mkdir` makes a new directory
 
 To log out of the remote server in your terminal, you can use: 
 * Ctrl-D
 * Run the command `exit`
-
-## Trying Some Commands
-Now, try running some commands `cd`, `ls`, `pwd` a few times and explain them. 
-
