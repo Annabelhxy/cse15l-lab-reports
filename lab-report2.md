@@ -71,9 +71,9 @@ The bug, as the before-and-after code change required to fix it (as two code blo
   }
 ```
 
-The before code creates an empty new array with the same length as arr, but in the for loop, the rightside of the "=" gives the values to the leftside. Thus, in before code, arr becomes empty. In after code, newArray copies every element in arr in reversed order. Therefore, the array returned is not empty and contains all element of the input array in reversed order. 
+The before code creates a new empty array with the same length as arr, but in the for loop, the rightside of the "=" gives the values to the leftside. Thus, in before code, arr becomes empty. In after code, newArray copies every element in arr in reversed order. Therefore, the array returned is not empty and contains all element of the input array in reversed order. 
 
 
 ## Part 3
 In week 2, I learned to create a simple web server which could be shared with other computer, so everyone could increment numbers by that url. 
-In week 3, I learned to wrote testcase by myself to check and debug the code. 
+In week 3, I learned to wrote testcases by myself to check and debug the code. 
