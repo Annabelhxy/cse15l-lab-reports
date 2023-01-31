@@ -8,6 +8,7 @@
 
 
 * Which methods in your code are called?
+handleRequest
 
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
@@ -18,7 +19,14 @@
 Debug for ArrayMethods
 
 A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
-```assertEquals```
+```@Test
+  public void testaverageWithoutLowest() {
+    double[] input1 = { };
+    assertEquals(0.0, ArrayExamples.averageWithoutLowest(input1), 0.01);
+
+    double[] input2 = {1.0, 2.0, 3.0, 4.0};
+    assertEquals(3.0, ArrayExamples.averageWithoutLowest(input2), 0.01);
+  }```
 
 An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 
