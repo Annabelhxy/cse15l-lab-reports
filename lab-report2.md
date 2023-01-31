@@ -74,3 +74,4 @@ The bug, as the before-and-after code change required to fix it (as two code blo
 The before code creates an empty new array with the same length as arr, but in the for loop, the rightside of the "=" gives the values to the leftside. Thus, in before code, arr becomes empty. In after code, newArray copies every element in arr in reversed order. Therefore, the array returned is not empty and contains all element of the input array in reversed order. 
 
 
+## Part 3
