@@ -75,3 +75,5 @@ The before code creates an empty new array with the same length as arr, but in t
 
 
 ## Part 3
+In week 2, I learned to create a simple web server which could be shared with other computer, so everyone could increment numbers by that url. 
+In week 3, I learned to wrote testcase by myself to check and debug the code. 
