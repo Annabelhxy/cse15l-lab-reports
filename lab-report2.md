@@ -31,6 +31,9 @@ A failure-inducing input for the buggy program, as a JUnit test and any associat
   public void testReversed() {
     int[] input2 = {1, 2, 3};
     assertArrayEquals(new int[]{3, 2, 1}, ArrayExamples.reversed(input2));
+    
+    int[] input3 = {5, 5, 6, 7, 8}; 
+    assertArrayEquals(new int[]{8, 7, 6, 5, 5}, ArrayExamples.reversed(input3));
   }
 ```
 
