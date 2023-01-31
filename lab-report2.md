@@ -8,13 +8,16 @@
 
 
 * Which methods in your code are called?
+
 handleRequest
 
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+
 relevant argument: url
 values of relevant fields: URI url, String concatenatedString, String[] parameters
 
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
 If the path of url is equal to "/add-message", get the query of the url and split it by "=", named parameters. If the first element of the parameters is equal to "s", add the first element to concatenatedString with new lines.
 
 
