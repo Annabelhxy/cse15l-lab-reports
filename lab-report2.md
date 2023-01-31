@@ -12,3 +12,18 @@
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+
+
+## Part 2
+Debug for ArrayMethods
+
+A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+'''assertEquals
+'''
+
+An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+
+The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+
+The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+
