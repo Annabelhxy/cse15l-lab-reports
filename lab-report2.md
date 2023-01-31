@@ -2,3 +2,6 @@
 
 ## Part 1
 ![Image](lab3_3.png)
+
+![Image](lab3_1.png)
+![Image](lab3_2.png)
