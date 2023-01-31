@@ -9,11 +9,11 @@
 
 * Which methods in your code are called?
 
-  handleRequest
+  handleRequest and main methods
 
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 
-  relevant argument: url
+  relevant argument: url and args
 
   values of relevant fields: URI url, String concatenatedString, String[] parameters
 
@@ -47,4 +47,24 @@ The symptom, as the output of running the tests (provide it as a screenshot of r
 ![Image](lab3_4.png)
 
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
+
 
