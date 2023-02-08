@@ -19,7 +19,7 @@
 
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
 
-  If the path of url is equal to "/add-message", get the query of the url and split it by "=", named parameters. If the first element of the parameters is equal to "s", add the first element to concatenatedString with new lines.
+  If the path of url is equal to "/add-message", get the query of the url and split it by "=", named parameters. If the first element of the parameters is equal to "s", add the first element to concatenatedString with new lines. For example, the concatenatedString is empty initially, and when we add the element to it, concatenatedString changes from "" to "Hello", and later to "Hello How are you" in different lines. 
 
 
 ## Part 2
@@ -48,7 +48,6 @@ An input that doesn’t induce a failure, as a JUnit test and any associated cod
 
 The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 ![Image](lab3_4.png)
-![Image](lab3_5.png)
 
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 ```
