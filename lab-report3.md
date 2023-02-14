@@ -1,6 +1,8 @@
 # Lab Report 3
 
 ## Researching Commands
+
+## Search a file with pattern
 ```
 cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP 
 find ./Abernathy -name "*.txt"
@@ -18,7 +20,7 @@ find ./Abernathy -name "*.txt"
 ./Abernathy/ch14.txt
 ```
 
-
+## Search a file with specific name
 ```
 find ./Fletcher -name "*.txt
 ```
