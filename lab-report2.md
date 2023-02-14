@@ -47,6 +47,7 @@ An input that doesn’t induce a failure, as a JUnit test and any associated cod
 ```
 
 The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+![Image](lab3__1.png)
 ![Image](lab_2_1.png)
 
 
