@@ -37,7 +37,7 @@ output
 ./Fletcher/ch10.txt
 ```
 
-source: [Link](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+[Source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 ## Search a file with specific name
 This command will search for specific file in the directory. It's useful because it helps me find the specific file by using its name. 
