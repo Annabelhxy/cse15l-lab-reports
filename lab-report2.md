@@ -49,6 +49,7 @@ An input that doesn’t induce a failure, as a JUnit test and any associated cod
 The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
 ![Image](lab_2_1.png)
 
+
 The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 ```
   static int[] reversed(int[] arr) {
