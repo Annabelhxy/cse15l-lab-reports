@@ -1,8 +1,5 @@
 # Lab Report 3
-
-## Researching Commands
-
-Search a file with pattern
+## Search a file with pattern
 
 E.g.1
 ```
@@ -10,6 +7,7 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP
 find ./Abernathy -name "*.txt"
 ```
 
+output
 ```
 ./Abernathy/ch2.txt
 ./Abernathy/ch3.txt
@@ -28,6 +26,7 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP
 find ./Fletcher -name "*.txt
 ```
 
+output
 ```
 ./Fletcher/ch2.txt
 ./Fletcher/ch1.txt
@@ -38,7 +37,7 @@ find ./Fletcher -name "*.txt
 ```
 
 
-Search a file with specific name
+## Search a file with specific name
 
 E.g.1
 ```
@@ -46,6 +45,7 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/travel_guides
 find ./berlitz1 -name "HandRHawaii.txt"
 ```
 
+output
 ```
 ./berlitz1/HandRHawaii.txt
 ```
@@ -56,12 +56,13 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP
 find ./Abernathy -name "ch1.txt"
 ```
 
+output
 ```
 ./Abernathy/ch1.txt
 ```
 
 
-find directory by type
+## find directory by type
 
 E.g.1
 ```
@@ -69,6 +70,7 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2
 find ./travel_guides -type d
 ```
 
+output
 ```
 ./travel_guides
 ./travel_guides/berlitz1
@@ -81,6 +83,7 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction
 find ./OUP -type d
 ```
 
+output
 ```
 ./OUP
 ./OUP/Berk
@@ -92,7 +95,7 @@ find ./OUP -type d
 ```
 
 
-search for all files greater than or lower than specified size
+## search for all files greater than or lower than specified size
 
 E.g.1
 ```
@@ -100,6 +103,7 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP
 find . -size -10k 
 ```
 
+output
 ```
 .
 ./Berk
@@ -122,6 +126,7 @@ cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1
 find . -size +100k
 ```
 
+output
 ```
 ./WhereToIndia.txt
 ./WhereToItaly.txt
