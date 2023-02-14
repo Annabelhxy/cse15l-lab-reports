@@ -103,25 +103,19 @@ This command will search all files which are greater than or less than the sepec
 
 E.g.1
 ```
-cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP
+cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP/Castro  
 find . -size -10k 
 ```
 
 output
 ```
 .
-./Berk
-./Abernathy
-./Rybczynski
-./Kauffman
-./Fletcher
-./Castro
-./Castro/chQ.txt
-./Castro/chW.txt
-./Castro/chZ.txt
-./Castro/chN.txt
-./Castro/chY.txt
-./Castro/chO.txt
+./chQ.txt
+./chW.txt
+./chZ.txt
+./chN.txt
+./chY.txt
+./chO.txt
 ```
 
 E.g.2
