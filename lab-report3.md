@@ -3,6 +3,7 @@
 ## Researching Commands
 
 Search a file with pattern
+
 E.g.1
 ```
 cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP 
@@ -38,6 +39,7 @@ find ./Fletcher -name "*.txt
 
 
 Search a file with specific name
+
 E.g.1
 ```
 cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/travel_guides 
@@ -60,6 +62,7 @@ find ./Abernathy -name "ch1.txt"
 
 
 find directory by type
+
 E.g.1
 ```
 cd /Users/huxinyu/Documents/GitHub/docsearch/written_2
@@ -90,6 +93,7 @@ find ./OUP -type d
 
 
 search for all files greater than or lower than specified size
+
 E.g.1
 ```
 cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP
