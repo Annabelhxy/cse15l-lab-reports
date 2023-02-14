@@ -1,5 +1,5 @@
 # Lab Report 3
-## Search files with pattern
+## Search files with pattern by using -name "*.txt"
 This command will give all files which have ".txt" at the end. It's useful because it helps me find all ".txt" files in the directory. Source: [LINK](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 E.g.1
@@ -38,7 +38,7 @@ output
 ```
 
 
-## Search a file with specific name
+## Search a file with specific name by using -name ".txt"
 This command will search for specific file in the directory. It's useful because it helps me find the specific file by using its name. Source: [LINK](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 E.g.1
@@ -64,7 +64,7 @@ output
 ```
 
 
-## Search directories by type
+## Search directories by type by using -type d
 This command will list all the directories. It's useful to help me know the catalog of the directory. Source: [LINK](https://www.redhat.com/sysadmin/linux-find-command)
 
 E.g.1
@@ -98,7 +98,7 @@ output
 ```
 
 
-## Search files greater than or less than specified size
+## Search files greater than or less than specified size by using -size
 This command will search all files which are greater than or less than the sepecific size. It's useful to find the files in the size range. Source: [LINK](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)
 
 E.g.1
