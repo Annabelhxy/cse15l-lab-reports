@@ -27,10 +27,10 @@ First, type `nano ListExamples.java` and press `<Enter>` to get to the code. The
 ## Step 8: Run the tests, demonstrating that they now succeed
 ![Image](step_8.png)
 
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command was 3 up in the search history, so I used up arrow to access it by pressing `<up><up><up><Enter>`. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command was 3 up in the history, so I accessed and ran it in the same way (pressing `<up><up><up><Enter>`). Then, the tests succeed. 
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command is 3 up in the search history, so I use up arrow to access it by pressing `<up><up><up><Enter>`. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command is 3 up in the history, so I access and run it in the same way (pressing `<up><up><up><Enter>`). Then, the tests succeed. 
 
 
 ## Step 9: Commit and push the resulting change to your Github account
 ![Image](step_9.png)
 
-
+Firstly, type and enter `git add .` and then type and enter `git commit -m "sth"` to commit the change to the Github account. Then, type and press `git push` to push the resulting change to the Github account. Thus, we finish. 
