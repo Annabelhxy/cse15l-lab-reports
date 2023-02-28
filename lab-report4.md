@@ -2,8 +2,9 @@
 ## Step 4: Log into ieng6
 
 ## Step 5: Clone your fork of the repository from your Github account
+![Image](step_5.png)
 
-
+Firstly, type git clone 
 
 ## Step 6: Run the tests, demonstrating that they fail
 
