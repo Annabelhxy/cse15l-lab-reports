@@ -14,14 +14,14 @@ Firstly, type `git clone` in the terminal. Then, go to the lab7 repository and c
 ## Step 6: Run the tests, demonstrating that they fail
 ![Image](step_6.png)
 
-Firstly, `cd` to change the directory to lab7. Then, complie the ListExamplesTests to run the tests by typing the commands `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. Then, the tests fail. 
+Firstly, `cd lab7` to change the directory to lab7. Then, complie the ListExamplesTests to run the tests by typing the commands `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`. Then, the tests fail. 
 
 
 ## Step 7: Edit the code file to fix the failing test
 ![Image](step_7_1.png)
 ![Image](step_7_2.png)
 
-First, type `nano ListExamples.java` and press `<Enter>` to get to the code. Then, go to the bottom of the code and change the line `index1 += 1` to `index2 += 1`. Next, press 'Ctrl-X' and type `y` and then press `<Enter>` to save and exit the code file. Thus, the error is fixed so we can run the tests. 
+First, type `nano ListExamples.java` and press `<Enter>` to get to the code. Then, go to the bottom of the code by holding `<down>` arrow and change the line `index1 += 1` to `index2 += 1` directly. Next, press 'Ctrl-X' and type `y` and then press `<Enter>` to save and exit the code file. Thus, the error is fixed so we can run the tests. 
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
