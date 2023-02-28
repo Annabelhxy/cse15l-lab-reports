@@ -112,7 +112,7 @@ output
 
 
 ## Search files greater than or less than specified size by using -size
-This command will search all files which are greater than or less than the sepecific size. It depends on the sign in front of the words size. i.e. If it is "-", it will search for all files greater than the specific size; if it is "+", it will search for all files less than the specific size. The specific size is behind the sign. It's useful to find the files in the specific size range. Source: [LINK](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)
+This command will search all files which are greater than or less than the sepecific size. It depends on the sign in front of the words size. i.e. If it is "-", it will search for all files less than the specific size; if it is "+", it will search for all files greater than the specific size. The specific size is behind the sign. It's useful to find the files in the specific size range. Source: [LINK](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)
 
 E.g.1
 ```
@@ -147,7 +147,7 @@ output
 ```
 
 
-## Search files with case-insensitive by using -size
+## Search files with case-insensitive by using -iname
 This command will search all files name with case-insensitive. It is useful when you want to search for files or directories that have similar names but different case variations. Source: [LINK](https://chat.openai.com/chat)
 
 E.g.1
