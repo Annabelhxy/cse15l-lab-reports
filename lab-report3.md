@@ -153,15 +153,13 @@ This command will search all files name with case-insensitive. It is useful when
 E.g.1
 ```
 cd /Users/huxinyu/Documents/GitHub/docsearch/written_2
-find ./ -iname "ch2.txt"
+find ./ -iname "ch4.txt"
 ```
 
 output
 ```
-.//non-fiction/OUP/Berk/ch2.txt
-.//non-fiction/OUP/Abernathy/ch2.txt
-.//non-fiction/OUP/Rybczynski/ch2.txt
-.//non-fiction/OUP/Fletcher/ch2.txt
+.//non-fiction/OUP/Berk/CH4.txt
+.//non-fiction/OUP/Kauffman/ch4.txt
 ```
 
 E.g.2
