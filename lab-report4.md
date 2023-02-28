@@ -1,5 +1,9 @@
 # Lab Report 4
 ## Step 4: Log into ieng6
+![Image](step_4.png)
+
+Type `Ctrl-R` to search command history, and then start typing part of a command `"s"`. Then, 
+
 
 ## Step 5: Clone your fork of the repository from your Github account
 ![Image](step_5.png)
