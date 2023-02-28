@@ -15,7 +15,13 @@ Firstly, type `git clone` in the terminal. Then, go to the lab7 repository and c
 
 
 ## Step 7: Edit the code file to fix the failing test
+![Image](step_7_1.png)
+![Image](step_7_2.png)
+
 
 ## Step 8: Run the tests, demonstrating that they now succeed
+![Image](step_8.png)
+
 
 ## Step 9: Commit and push the resulting change to your Github account
+![Image](step_9.png)
