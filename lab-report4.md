@@ -8,9 +8,11 @@ Type `Ctrl-R` to search command history, and then start typing part of a command
 ## Step 5: Clone your fork of the repository from your Github account
 ![Image](step_5.png)
 
-Firstly, type `git clone` in the terminal. Then, go to the lab7 repository and click code and then click SSH, and then click the copy to copy the password-protected SSH key. Then, copy the SSH key from the Github account and press `<Enter>`. The clone starts. 
+Firstly, type `git clone` in the terminal. Then, go to the lab7 repository and click code and then click SSH, and then click the copy to copy the password-protected SSH key. Then, copy the SSH key from the Github account and press `<Enter>`. Then, the clone starts. 
 
 ## Step 6: Run the tests, demonstrating that they fail
+![Image](step_6.png)
+
 
 ## Step 7: Edit the code file to fix the failing test
 
