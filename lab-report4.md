@@ -1,6 +1,6 @@
 # Lab Report 4
 ## Step 4: Log into ieng6
-
+![Image](step_4.png)
 Type `Ctrl-R` to search command history, and then start typing part of a command `"s"`. Then, 
 
 
