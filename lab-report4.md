@@ -21,13 +21,13 @@ Firstly, `cd lab7` to change the directory to lab7. Then, complie the ListExampl
 ![Image](step_7_1.png)
 ![Image](step_7_2.png)
 
-First, type `nano ListExamples.java` and press `<Enter>` to get to the code. Then, go to the bottom of the code by holding `<down>` arrow and change the line `index1 += 1` to `index2 += 1` directly. Next, press 'Ctrl-X' and type `y` and then press `<Enter>` to save and exit the code file. Thus, the error is fixed so we can run the tests. 
+First, type `nano ListExamples.java` and press `<Enter>` to get to the code. Then, go to the bottom of the code by holding `<down>` arrow and change the line `index1 += 1` to `index2 += 1` directly. Next, press `Ctrl-X` and type `y` and then press `<Enter>` to save and exit the code file. Thus, the error is fixed so we can run the tests. 
 
 
 ## Step 8: Run the tests, demonstrating that they now succeed
 ![Image](step_8.png)
 
-The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command is 3 up in the search history, so I use up arrow to access it by pressing `<up><up><up><Enter>`. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command is 3 up in the history, so I access and run it in the same way (pressing `<up><up><up><Enter>`). Then, the tests succeed. 
+The `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` command is 3 up in the search history, so I use up arrow to access it by pressing `<up><up><up><Enter>`. Then the `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` command is 3 up in the history, so I access and run it in the same way by pressing `<up><up><up><Enter>`. Then, the tests succeed. 
 
 
 ## Step 9: Commit and push the resulting change to your Github account
