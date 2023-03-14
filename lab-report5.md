@@ -1,22 +1,37 @@
 # Lab Report 5
-## Search files with pattern by using -name
-This command will give all files and directories which contain with the letters inside the double quotations marks and in front of the star. It's useful because it helps me find all files with specific patterns ("_*") in the directory. Source: [LINK](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
+## Search files containing the whole pattern by using -w
+The -w option to grep makes it match only the exactly whole words. It's useful because it helps me search files with exact words. '-r' and `-l` search through the directories recursively and list the matched files. Source: [LINK](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
-E.g.1
+E.g.1 This example searches the texts that match exactly whole word.
 ```
-cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP 
-find ./ -name "ch*"   
+grep -r -w -l "California" written_2/non-fiction/OUP 
 ```
 
 output
 ```
-
+written_2/non-fiction/OUP/Berk/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch2.txt
+written_2/non-fiction/OUP/Abernathy/ch15.txt
+written_2/non-fiction/OUP/Rybczynski/ch2.txt
+written_2/non-fiction/OUP/Rybczynski/ch1.txt
+written_2/non-fiction/OUP/Kauffman/ch1.txt
+written_2/non-fiction/OUP/Kauffman/ch9.txt
+written_2/non-fiction/OUP/Fletcher/ch9.txt
+written_2/non-fiction/OUP/Castro/chR.txt
+written_2/non-fiction/OUP/Castro/chP.txt
+written_2/non-fiction/OUP/Castro/chQ.txt
+written_2/non-fiction/OUP/Castro/chB.txt
+written_2/non-fiction/OUP/Castro/chC.txt
+written_2/non-fiction/OUP/Castro/chA.txt
+written_2/non-fiction/OUP/Castro/chV.txt
+written_2/non-fiction/OUP/Castro/chW.txt
+written_2/non-fiction/OUP/Castro/chM.txt
+written_2/non-fiction/OUP/Castro/chL.txt
 ```
 
-E.g.2
+E.g.2 This example demonstrates -w can't search texts with pattern as substring.
 ```
-cd /Users/huxinyu/Documents/GitHub/docsearch/written_2                
-find ./ -name "P*"
+grep -r -w -l "Cal" written_2/non-fiction/OUP 
 ```
 
 output
