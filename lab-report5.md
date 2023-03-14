@@ -40,54 +40,75 @@ output
 ```
 
 
-## Search directories by type by using -type d
-This command will list all the directories. It's useful when you want to get a list of all directories in a particular directory. It's also useful when you want to perform a bulk action, such as deleting or moving, on all directories in a particular directory. Source: [LINK](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+## Count the number of lines that matches the given pattern by -c
+The -c option to grep finds the number of lines that matches the given pattern. It's useful when you want to get the number of lines with the given pattern. `-r` and `-l` search through the directories recursively and list the matched files. Source: [LINK](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 E.g.1
 ```
-cd /Users/huxinyu/Documents/GitHub/docsearch/written_2
-find ./travel_guides -type d
+grep -r -c -l "California" written_2/non-fiction/OUP/Castro 
 ```
 
 output
 ```
-
+written_2/non-fiction/OUP/Castro/chR.txt:1
+written_2/non-fiction/OUP/Castro/chR.txt
+written_2/non-fiction/OUP/Castro/chP.txt:1
+written_2/non-fiction/OUP/Castro/chP.txt
+written_2/non-fiction/OUP/Castro/chQ.txt:1
+written_2/non-fiction/OUP/Castro/chQ.txt
+written_2/non-fiction/OUP/Castro/chB.txt:1
+written_2/non-fiction/OUP/Castro/chB.txt
+written_2/non-fiction/OUP/Castro/chC.txt:1
+written_2/non-fiction/OUP/Castro/chC.txt
+written_2/non-fiction/OUP/Castro/chA.txt:1
+written_2/non-fiction/OUP/Castro/chA.txt
+written_2/non-fiction/OUP/Castro/chV.txt:1
+written_2/non-fiction/OUP/Castro/chV.txt
+written_2/non-fiction/OUP/Castro/chW.txt:1
+written_2/non-fiction/OUP/Castro/chW.txt
+written_2/non-fiction/OUP/Castro/chM.txt:1
+written_2/non-fiction/OUP/Castro/chM.txt
+written_2/non-fiction/OUP/Castro/chZ.txt:0
+written_2/non-fiction/OUP/Castro/chL.txt:1
+written_2/non-fiction/OUP/Castro/chL.txt
+written_2/non-fiction/OUP/Castro/chN.txt:0
+written_2/non-fiction/OUP/Castro/chY.txt:0
+written_2/non-fiction/OUP/Castro/chO.txt:0
 ```
 
 E.g.2
 ```
-
+grep -c "the" written_2/travel_guides/berlitz1/HistoryDublin.txt
 ```
 
 output
 ```
-
+141
 ```
 
 
-## Search files greater than or less than specified size by using -size
-This command will search all files which are greater than or less than the sepecific size. It depends on the sign in front of the words size. i.e. If it is "-", it will search for all files less than the specific size; if it is "+", it will search for all files greater than the specific size. The specific size is behind the sign. For instance, example 1 searches files with size less than 10k and example 2 searches files with size greater than 100k. It's useful to find the files in the specific size range. Source: [LINK]([https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size](https://www.geeksforgeeks.org/grep-command-in-unixlinux/))
+## Show line number while displaying the output by -n
+The -n option to grep show the line number of file with the line matched. It's useful when we want to find the line with the pattern we want. `-r` and `-l` search through the directories recursively and list the matched files. Source: [LINK]([https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size](https://www.geeksforgeeks.org/grep-command-in-unixlinux/))
 
 E.g.1
 ```
-cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/non-fiction/OUP/Castro  
-find . -size -10k 
+grep -n "Northern and Southern California" written_2/travel_guides/berlitz2/California-WhereToGo.txt
 ```
 
 output
 ```
-
+6:Many Californians would like to divide their state into two new states, Northern and Southern California — corresponding to what they believe to be two distinct frames of mind as represented by San Francisco and Los Angeles. In fact you will find a little bit of both — San Francisco’s sophistication and Los Angeles’ sunny craziness — all over the place.
 ```
 
 E.g.2
 ```
-cd /Users/huxinyu/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1
-find . -size +100k
+grep -n "Disneyland" written_2/travel_guides/berlitz2/California-WhereToGo.txt
 ```
 
 output
 ```
-
+131:Anaheim, 27 miles (43 km) southeast of downtown L.A. on the Santa Ana Freeway, is the home of Disneyland. It’s best to allow a full day for a visit, as the entrance fee is expensive and there is so much to see. You can buy a Passport for one, two, or three days, covering the entire Disneyland complex and valid for unlimited use on all the attractions. Food and drink are not included in the admission price.
+134:Northwest of Disneyland you will find the Movieland Wax Museum (7711 Beach Boulevard, Buena Park), which displays wax figures of film stars in scenes from their best-known films. For film buffs, the most interesting display will be the collection of old nickelodeons, autoscopes, and movieola machines that projected the very first moving pictures.
 ```
 
 
