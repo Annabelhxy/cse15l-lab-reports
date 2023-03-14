@@ -88,7 +88,7 @@ output
 
 
 ## Show line number while displaying the output by using -n
-The -n option to grep show the line number of file with the line matched. It's useful when we want to find the line with the pattern we want. Source: [LINK]([https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size](https://www.geeksforgeeks.org/grep-command-in-unixlinux/))
+The -n option to grep show the line number of file with the line matched. It's useful when we want to find the line with the pattern we want. Source: [LINK](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 E.g.1
 ```
@@ -113,7 +113,7 @@ output
 
 
 ## Search files with case-insensitive by using -i
-The -i option to grep searches for a string case insensitively in the given file. It is useful when you want to search for files or directories that have similar words but different case variations. `-r` and `-l` search through the directories recursively and list the matched files. Source: [LINK]([https://chat.openai.com/chat](https://www.geeksforgeeks.org/grep-command-in-unixlinux/))
+The -i option to grep searches for a string case insensitively in the given file. It is useful when you want to search for files or directories that have similar words but different case variations. `-r` and `-l` search through the directories recursively and list the matched files. Source: [LINK](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 E.g.1
 ```
