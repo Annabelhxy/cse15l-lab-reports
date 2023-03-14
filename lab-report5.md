@@ -40,7 +40,7 @@ output
 ```
 
 
-## Count the number of lines that matches the given pattern by -c
+## Count the number of lines that matches the given pattern by using -c
 The -c option to grep finds the number of lines that matches the given pattern. It's useful when you want to get the number of lines with the given pattern. `-r` and `-l` search through the directories recursively and list the matched files. Source: [LINK](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
 
 E.g.1
@@ -87,7 +87,7 @@ output
 ```
 
 
-## Show line number while displaying the output by -n
+## Show line number while displaying the output by using -n
 The -n option to grep show the line number of file with the line matched. It's useful when we want to find the line with the pattern we want. `-r` and `-l` search through the directories recursively and list the matched files. Source: [LINK]([https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size](https://www.geeksforgeeks.org/grep-command-in-unixlinux/))
 
 E.g.1
